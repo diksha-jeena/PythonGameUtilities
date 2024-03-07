@@ -1,3 +1,4 @@
+
 def sum(a, b, c):
     return a + b + c
 
@@ -56,7 +57,7 @@ while True:
         print("Match over")
         break
     turn = 1 - turn
-    moves += 1  # Increment moves counter
+    moves += 1  
 
     # Check for a draw after 9 moves (the maximum number of moves in Tic Tac Toe)
     if moves == 9:
